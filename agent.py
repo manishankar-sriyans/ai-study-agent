@@ -9,7 +9,7 @@ tools = [{"type": "function", "function": {"name": s["name"], "description": s["
 def run(goal):
     messages = [{"role": "user", "content": goal}]
     while True:
-        r = client.chat.completions.create(model="llama-3.3-70b-versatile", messages=messages, tools=tools)
+        r = client.chat.completions.create(model="openai/gpt-oss-120b", messages=messages, tools=tools)
         m = r.choices[0].message
         if not m.tool_calls:
             return m.content
