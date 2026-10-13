@@ -33,4 +33,6 @@ Goal: `Calculate 25*4+10, then save the result as a note, then read my notes`
 
 Result: 110
 Saved note: "Result of 25*4+10 = 110"
+
+![Demo screenshot](demo.png)
 ```
