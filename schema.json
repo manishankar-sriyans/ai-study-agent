@@ -1,0 +1,8 @@
+[
+  {"name": "calculator", "description": "Evaluate a math expression",
+   "input_schema": {"type": "object", "properties": {"expression": {"type": "string"}}, "required": ["expression"]}},
+  {"name": "save_note", "description": "Save a study note",
+   "input_schema": {"type": "object", "properties": {"text": {"type": "string"}}, "required": ["text"]}},
+  {"name": "read_notes", "description": "Read all saved notes",
+   "input_schema": {"type": "object", "properties": {}}}
+]
