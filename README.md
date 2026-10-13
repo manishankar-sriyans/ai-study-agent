@@ -23,3 +23,16 @@ pip install -r requirements.txt
 export ANTHROPIC_API_KEY=your_key
 python agent.py
 ```
+
+## Demo Output
+
+Goal: `Calculate 25*4+10, then save the result as a note, then read my notes`
+
+```
+[TOOL] calculator({'expression': '25*4+10'}) -> 110
+[TOOL] save_note({'text': 'Result of 25*4+10 = 110'}) -> saved
+[TOOL] read_notes({}) -> Result of 25*4+10 = 110
+
+Result: 110
+Saved note: "Result of 25*4+10 = 110"
+```
