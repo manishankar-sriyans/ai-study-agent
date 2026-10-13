@@ -1,5 +1,3 @@
-# ai-study-agent
-
 # AI Study Agent
 
 An agentic AI that takes a goal, picks tools, runs them, observes results, and repeats until the goal is done.
